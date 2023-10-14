@@ -1,0 +1,13 @@
+.section {
+    padding: 30px;
+}
+
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image {
+    max-width: 400px;
+    align-self: center;
+}
