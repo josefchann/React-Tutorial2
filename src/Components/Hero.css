@@ -5,9 +5,11 @@
 .heroContainer {
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-image {
     max-width: 400px;
     align-self: center;
+    padding: 2rem;
 }

@@ -1,9 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import App from './App.jsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const style = {
+  maxWidth: "50vw",
+}
+
+ReactDOM.render(<App style={style}/>,document.getElementById('root'))
+
