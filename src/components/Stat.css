@@ -1,0 +1,31 @@
+.images {
+    border-radius: 4%;
+    width: 300px;
+}
+
+.cardContainer {
+    font-size: 18px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.bullet {
+    height: 14px;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

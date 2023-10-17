@@ -8,11 +8,11 @@ export default function Hero() {
                 <div className="hero-image">
                     <img src={photoGrid} alt="" />
                 </div>
-                <div className="hero-text-container">
-                    <h1 className="hero-header">Online Experiences</h1>
-                    <p className="hero-text">Join unique interactive activities led by one of a kind hosts- all without leaving home</p>
-                </div>
             </section>
-            </>
-        )
+            <div className="hero-text-container">
+                <h1 className="hero-header">Online Experiences</h1>
+                <p className="hero-text">Join unique interactive activities led by one of a kind hosts- all without leaving home</p>
+            </div>
+        </>
+    )
 }
